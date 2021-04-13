@@ -22,11 +22,11 @@ function reverseString(){
     //Loop 5 - i = 0: userWord[0] = F
 
     //palendrome
-    let trueFalseOutput = document.getElementById("palOutput");
+    let booleanOutput = document.getElementById("palOutput");
     if (cleanedWord === reverseWord) {
-        trueFalseOutput.innerText = "Yes, this is a Palindrome";
+        booleanOutput.innerText = "Yes, this is a Palindrome";
     } else {
-        trueFalseOutput.innerText = "No, this is not a Palindrome";
+        booleanOutput.innerText = "No, this is not a Palindrome";
     }
 }
  
